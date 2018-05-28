@@ -49,7 +49,19 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls = lists files 
+
+ls -a = list all files, including hidden files 
+
+ls -l = list all, long format 
+
+ls -lh = list files with byte, Kilobyte format 
+
+ls -lah =  lists all files with byte, Kilobyte suffix format 
+
+ls -t = list files, sorted by time modified 
+
+ls -Glp = list files in colorized output, long form, with slash if object is a directory 
 
 ---
 
