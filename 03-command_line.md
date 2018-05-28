@@ -36,7 +36,9 @@ ls -a = lists hidden files
 
 cp file.txt folder/file.txt = copies file from one directory to another 
 
----
+man ls = the manual for the 'ls' command, aka help() 
+
+rm dir -R = removes directory and its subdirectory and files 
 
 ### Q2.  List Files in Unix   
 
@@ -81,7 +83,9 @@ ls -m = displays in csv format
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+xargs builds and executes command lines from standard input. Seems somewhat similiar to lambda in python. 
 
- 
+$echo 'one two three' | xargs mkdir
+
+This line creates three folders (labeled one, two and three) using the 'mkdir' function 
 
