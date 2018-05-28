@@ -69,7 +69,11 @@ ls -Glp = list files in colorized output, long form, with slash if object is a d
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls -c = display files by timestamp 
+ls -d = only directories 
+ls -R = includes subdirectories 
+ls -u = display by file access time 
+ls -m = displays in csv format
 
 ---
 
